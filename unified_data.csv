@@ -1,0 +1,112 @@
+,Date,Membership_ID,Membership_Type,Activity,Revenue,Duration (Minutes),Location,id,name,role,cashmoneh,hired_date,company_id,company_name,company_industry,company_revenue,company_location,company_performance_2023_Q1_revenue,company_performance_2023_Q1_profit_margin,company_performance_2023_Q2_revenue,company_performance_2023_Q2_profit_margin,Report,0,1,2,3,4
+0,2024-01-21,M001,Basic,Gym,113.82,60,Downtown,E001,Alice,Personal Trainer,45000.0,2020-01-15,1,FitPro,Sports and Leisure,95000000.0,North America,23000000.0,12.5,25000000,13.0,"FitPro: Annual Summary 2023
+Key Highlights:
+Total Revenue: $10,400,000
+Total Memberships Sold: 1,520
+Top Location: Downtown
+Quarterly Metrics
+Revenue Breakdown by Activity
+Revenue Distribution:
+Gym: 40%
+Pool: 25%
+Tennis Court: 15%
+Personal Training: 20%",Year,Quarter,Revenue (in $),Memberships Sold,Avg Duration (Minutes)
+1,2024-01-05,M002,VIP,Pool,104.74,30,Eastside,E002,Bob,Group Fitness Instructor,40000.0,2019-06-22,1,FitPro,Sports and Leisure,95000000.0,North America,23000000.0,12.5,25000000,13.0,,2022,Q1,"2,100,000",300,85
+2,2024-01-14,M003,Basic,Gym,23.12,60,Eastside,E003,Eve,Gym Manager,70000.0,2021-03-12,1,FitPro,Sports and Leisure,95000000.0,North America,23000000.0,12.5,25000000,13.0,,2022,Q2,"2,300,000",320,87
+3,2024-01-20,M004,Basic,Personal Training,110.24,120,Downtown,E004,Frank,Sports Nutritionist,60000.0,2022-07-08,1,FitPro,Sports and Leisure,95000000.0,North America,23000000.0,12.5,25000000,13.0,,2022,Q3,"2,500,000",340,89
+4,2024-01-15,M005,VIP,Dance Class,123.32,30,Downtown,E005,Grace,Marketing Specialist,50000.0,2020-12-01,1,FitPro,Sports and Leisure,95000000.0,North America,23000000.0,12.5,25000000,13.0,,2022,Q4,"2,700,000",360,88
+5,2024-01-23,M006,Premium,Swimming Class,48.9,60,Westside,E006,Hank,Customer Service Lead,42000.0,2018-11-15,1,FitPro,Sports and Leisure,95000000.0,North America,23000000.0,12.5,25000000,13.0,,2023,Q1,"2,300,000",320,90
+6,2024-01-04,M007,Basic,Yoga Class,23.54,90,Eastside,E007,Isla,Event Coordinator,48000.0,2021-06-10,1,FitPro,Sports and Leisure,95000000.0,North America,23000000.0,12.5,25000000,13.0,,2023,Q2,"2,500,000",400,95
+7,2024-01-09,M008,Basic,Climbing Wall,85.07,120,Downtown,E008,Jake,Equipment Maintenance Technician,40000.0,0,1,FitPro,Sports and Leisure,95000000.0,North America,23000000.0,12.5,25000000,13.0,,2023,Q3,"2,700,000",350,100
+8,2024-01-18,M009,Premium,Swimming Class,90.83,30,Downtown,E009,Karen,Swimming Coach,47000.0,2019-09-18,1,FitPro,Sports and Leisure,95000000.0,North America,23000000.0,12.5,25000000,13.0,,2023,Q4,"2,900,000",450,92
+9,2024-01-22,M010,Basic,Dance Class,147.93,60,Downtown,E010,Leo,Yoga Instructor,42000.0,2020-05-22,1,FitPro,Sports and Leisure,95000000.0,North America,23000000.0,12.5,25000000,13.0,,2024,Q1,"3,100,000",420,88
+10,2024-01-13,M011,Premium,Climbing Wall,99.0,90,Downtown,E011,Maya,Receptionist,30000.0,2021-11-03,1,FitPro,Sports and Leisure,95000000.0,North America,23000000.0,12.5,25000000,13.0,,2024,Q2,"3,300,000",500,90
+11,2024-01-12,M012,Premium,Personal Training,103.82,30,Eastside,E012,Noah,Aquatics Director,60000.0,2019-03-27,1,FitPro,Sports and Leisure,95000000.0,North America,23000000.0,12.5,25000000,13.0,,,,,,
+12,2024-01-21,M013,Basic,Personal Training,32.88,120,Westside,E013,Olivia,Fitness Consultant,52000.0,2022-01-17,1,FitPro,Sports and Leisure,95000000.0,North America,23000000.0,12.5,25000000,13.0,,,,,,
+13,2024-01-30,M014,VIP,Personal Training,105.85,30,Downtown,E014,Peter,Tennis Coach,55000.0,2017-08-30,1,FitPro,Sports and Leisure,95000000.0,North America,23000000.0,12.5,25000000,13.0,,,,,,
+14,2024-01-27,M015,Basic,Swimming Class,66.16,30,Downtown,E015,Quinn,Corporate Wellness Coordinator,62000.0,2023-02-01,1,FitPro,Sports and Leisure,95000000.0,North America,23000000.0,12.5,25000000,13.0,,,,,,
+15,2024-01-30,M016,VIP,Swimming Class,39.77,120,Westside,E101,Carol,Spa Therapist,35000.0,0,2,RecreaLife,Sports and Leisure,0.0,Europe,0.0,10.0,22000000,11.5,,,,,,
+16,2024-01-29,M017,VIP,Climbing Wall,30.0,60,Downtown,E102,Dave,Physiotherapist,60000.0,0,2,RecreaLife,Sports and Leisure,0.0,Europe,0.0,10.0,22000000,11.5,,,,,,
+17,2024-01-24,M018,VIP,Dance Class,114.58,120,Eastside,E103,Emma,Wellness Coach,45000.0,2020-05-13,2,RecreaLife,Sports and Leisure,0.0,Europe,0.0,10.0,22000000,11.5,,,,,,
+18,2024-01-13,M019,Premium,Personal Training,149.63,60,Eastside,E104,Fiona,Sports Therapist,55000.0,0,2,RecreaLife,Sports and Leisure,0.0,Europe,0.0,10.0,22000000,11.5,,,,,,
+19,2024-01-16,M020,Basic,Gym,130.55,60,Eastside,E105,George,Massage Therapist,40000.0,2021-04-22,2,RecreaLife,Sports and Leisure,0.0,Europe,0.0,10.0,22000000,11.5,,,,,,
+20,2024-01-06,M021,VIP,Yoga Class,93.5,120,Westside,E106,Holly,Front Desk Manager,38000.0,2019-10-03,2,RecreaLife,Sports and Leisure,0.0,Europe,0.0,10.0,22000000,11.5,,,,,,
+21,2024-01-20,M022,Premium,Dance Class,145.95,30,Eastside,E107,Ian,Lifeguard,32000.0,2018-07-20,2,RecreaLife,Sports and Leisure,0.0,Europe,0.0,10.0,22000000,11.5,,,,,,
+22,2024-01-24,M023,Basic,Dance Class,117.6,90,Downtown,E108,Julia,Dance Instructor,42000.0,2020-09-14,2,RecreaLife,Sports and Leisure,0.0,Europe,0.0,10.0,22000000,11.5,,,,,,
+23,2024-01-10,M024,Premium,Tennis Court,73.52,90,Eastside,E109,Kyle,Climbing Instructor,45000.0,2015-11-10,2,RecreaLife,Sports and Leisure,0.0,Europe,0.0,10.0,22000000,11.5,,,,,,
+24,2024-01-25,M025,Basic,Pool,131.87,90,Eastside,E110,Lila,Pilates Instructor,46000.0,2017-01-25,2,RecreaLife,Sports and Leisure,0.0,Europe,0.0,10.0,22000000,11.5,,,,,,
+25,2024-01-17,M026,VIP,Personal Training,31.4,60,Eastside,E111,Milo,Recreation Manager,58000.0,2022-06-02,2,RecreaLife,Sports and Leisure,0.0,Europe,0.0,10.0,22000000,11.5,,,,,,
+26,2024-01-31,M027,VIP,Gym,93.85,120,Downtown,E112,Nora,Aquatic Exercise Instructor,48000.0,2020-02-15,2,RecreaLife,Sports and Leisure,0.0,Europe,0.0,10.0,22000000,11.5,,,,,,
+27,2024-01-04,M028,Premium,Dance Class,43.52,60,Eastside,E113,Oscar,Outdoor Adventure Guide,53000.0,2021-03-09,2,RecreaLife,Sports and Leisure,0.0,Europe,0.0,10.0,22000000,11.5,,,,,,
+28,2024-01-31,M029,Basic,Pool,112.47,30,Eastside,E114,Paula,Membership Coordinator,36000.0,2019-12-19,2,RecreaLife,Sports and Leisure,0.0,Europe,0.0,10.0,22000000,11.5,,,,,,
+29,2024-01-25,M030,Basic,Tennis Court,102.37,60,Westside,E115,Quincy,Wellness Retreat Planner,70000.0,2023-04-15,2,RecreaLife,Sports and Leisure,0.0,Europe,0.0,10.0,22000000,11.5,,,,,,
+30,2024-01-17,M031,VIP,Yoga Class,145.01,60,Eastside,,,,,,,,,,,,,,,,,,,,
+31,2024-01-10,M032,Premium,Swimming Class,71.33,120,Downtown,,,,,,,,,,,,,,,,,,,,
+32,2024-01-08,M033,Basic,Pool,57.33,60,Eastside,,,,,,,,,,,,,,,,,,,,
+33,2024-01-08,M034,Basic,Pool,109.1,30,Downtown,,,,,,,,,,,,,,,,,,,,
+34,2024-01-03,M035,Basic,Swimming Class,19.92,60,Westside,,,,,,,,,,,,,,,,,,,,
+35,2024-01-22,M036,Premium,Personal Training,85.49,120,Downtown,,,,,,,,,,,,,,,,,,,,
+36,2024-01-26,M037,Premium,Yoga Class,36.66,30,Eastside,,,,,,,,,,,,,,,,,,,,
+37,2024-01-14,M038,Premium,Yoga Class,67.55,30,Eastside,,,,,,,,,,,,,,,,,,,,
+38,2024-01-21,M039,VIP,Pool,18.49,90,Downtown,,,,,,,,,,,,,,,,,,,,
+39,2024-01-08,M040,Basic,Personal Training,85.08,60,Westside,,,,,,,,,,,,,,,,,,,,
+40,2024-01-06,M041,Premium,Climbing Wall,44.97,30,Westside,,,,,,,,,,,,,,,,,,,,
+41,2024-01-26,M042,VIP,Pool,17.08,30,Downtown,,,,,,,,,,,,,,,,,,,,
+42,2024-01-30,M043,Basic,Tennis Court,66.9,120,Downtown,,,,,,,,,,,,,,,,,,,,
+43,2024-01-28,M044,Premium,Gym,33.05,30,Westside,,,,,,,,,,,,,,,,,,,,
+44,2024-01-09,M045,Premium,Dance Class,69.22,120,Downtown,,,,,,,,,,,,,,,,,,,,
+45,2024-01-07,M046,Premium,Personal Training,145.62,30,Eastside,,,,,,,,,,,,,,,,,,,,
+46,2024-01-11,M047,Basic,Gym,91.78,60,Downtown,,,,,,,,,,,,,,,,,,,,
+47,2024-01-31,M048,VIP,Pool,129.19,30,Eastside,,,,,,,,,,,,,,,,,,,,
+48,2024-01-03,M049,VIP,Personal Training,66.53,60,Eastside,,,,,,,,,,,,,,,,,,,,
+49,2024-01-20,M050,Basic,Pool,68.69,90,Westside,,,,,,,,,,,,,,,,,,,,
+50,2024-01-07,M051,VIP,Swimming Class,43.42,120,Downtown,,,,,,,,,,,,,,,,,,,,
+51,2024-01-22,M052,VIP,Dance Class,74.01,30,Downtown,,,,,,,,,,,,,,,,,,,,
+52,2024-01-15,M053,VIP,Pool,20.26,60,Eastside,,,,,,,,,,,,,,,,,,,,
+53,2024-01-09,M054,Basic,Swimming Class,133.32,60,Westside,,,,,,,,,,,,,,,,,,,,
+54,2024-01-10,M055,Basic,Climbing Wall,126.72,90,Eastside,,,,,,,,,,,,,,,,,,,,
+55,2024-01-26,M056,VIP,Gym,103.5,90,Eastside,,,,,,,,,,,,,,,,,,,,
+56,2024-01-04,M057,Basic,Dance Class,26.16,30,Eastside,,,,,,,,,,,,,,,,,,,,
+57,2024-01-18,M058,Basic,Dance Class,49.45,60,Eastside,,,,,,,,,,,,,,,,,,,,
+58,2024-01-11,M059,Basic,Dance Class,80.76,90,Downtown,,,,,,,,,,,,,,,,,,,,
+59,2024-01-03,M060,VIP,Yoga Class,126.11,30,Downtown,,,,,,,,,,,,,,,,,,,,
+60,2024-01-11,M061,Basic,Dance Class,32.62,120,Eastside,,,,,,,,,,,,,,,,,,,,
+61,2024-01-23,M062,Premium,Gym,25.66,60,Eastside,,,,,,,,,,,,,,,,,,,,
+62,2024-01-02,M063,Premium,Tennis Court,70.17,30,Westside,,,,,,,,,,,,,,,,,,,,
+63,2024-01-12,M064,Basic,Swimming Class,39.41,60,Eastside,,,,,,,,,,,,,,,,,,,,
+64,2024-01-04,M065,Premium,Yoga Class,146.34,60,Downtown,,,,,,,,,,,,,,,,,,,,
+65,2024-01-28,M066,Basic,Tennis Court,133.4,30,Downtown,,,,,,,,,,,,,,,,,,,,
+66,2024-01-24,M067,Premium,Yoga Class,122.31,60,Westside,,,,,,,,,,,,,,,,,,,,
+67,2024-01-06,M068,VIP,Pool,63.56,30,Westside,,,,,,,,,,,,,,,,,,,,
+68,2024-01-08,M069,Basic,Climbing Wall,58.95,60,Downtown,,,,,,,,,,,,,,,,,,,,
+69,2024-01-01,M070,VIP,Personal Training,65.79,90,Downtown,,,,,,,,,,,,,,,,,,,,
+70,2024-01-31,M071,Premium,Swimming Class,99.81,120,Eastside,,,,,,,,,,,,,,,,,,,,
+71,2024-01-27,M072,VIP,Swimming Class,141.49,30,Westside,,,,,,,,,,,,,,,,,,,,
+72,2024-01-06,M073,VIP,Dance Class,15.36,120,Westside,,,,,,,,,,,,,,,,,,,,
+73,2024-01-24,M074,Premium,Yoga Class,94.87,30,Westside,,,,,,,,,,,,,,,,,,,,
+74,2024-01-29,M075,VIP,Personal Training,45.66,120,Downtown,,,,,,,,,,,,,,,,,,,,
+75,2024-01-17,M076,VIP,Personal Training,60.99,30,Eastside,,,,,,,,,,,,,,,,,,,,
+76,2024-01-30,M077,Premium,Swimming Class,102.87,30,Eastside,,,,,,,,,,,,,,,,,,,,
+77,2024-01-29,M078,Premium,Dance Class,103.37,90,Westside,,,,,,,,,,,,,,,,,,,,
+78,2024-01-23,M079,Premium,Tennis Court,36.86,120,Eastside,,,,,,,,,,,,,,,,,,,,
+79,2024-01-24,M080,Basic,Dance Class,66.85,30,Westside,,,,,,,,,,,,,,,,,,,,
+80,2024-01-10,M081,Basic,Yoga Class,120.01,90,Westside,,,,,,,,,,,,,,,,,,,,
+81,2024-01-15,M082,Premium,Personal Training,81.56,60,Eastside,,,,,,,,,,,,,,,,,,,,
+82,2024-01-03,M083,Premium,Swimming Class,23.07,60,Eastside,,,,,,,,,,,,,,,,,,,,
+83,2024-01-10,M084,Basic,Personal Training,30.63,30,Downtown,,,,,,,,,,,,,,,,,,,,
+84,2024-01-16,M085,VIP,Pool,73.76,60,Eastside,,,,,,,,,,,,,,,,,,,,
+85,2024-01-23,M086,Premium,Climbing Wall,65.95,60,Eastside,,,,,,,,,,,,,,,,,,,,
+86,2024-01-23,M087,Basic,Pool,118.98,60,Downtown,,,,,,,,,,,,,,,,,,,,
+87,2024-01-26,M088,VIP,Climbing Wall,17.03,60,Downtown,,,,,,,,,,,,,,,,,,,,
+88,2024-01-15,M089,Basic,Climbing Wall,103.46,90,Westside,,,,,,,,,,,,,,,,,,,,
+89,2024-01-20,M090,VIP,Yoga Class,126.28,120,Downtown,,,,,,,,,,,,,,,,,,,,
+90,2024-01-24,M091,Premium,Climbing Wall,46.29,60,Eastside,,,,,,,,,,,,,,,,,,,,
+91,2024-01-09,M092,VIP,Climbing Wall,97.74,90,Westside,,,,,,,,,,,,,,,,,,,,
+92,2024-01-03,M093,VIP,Dance Class,42.83,90,Westside,,,,,,,,,,,,,,,,,,,,
+93,2024-01-29,M094,VIP,Pool,29.37,60,Westside,,,,,,,,,,,,,,,,,,,,
+94,2024-01-23,M095,Basic,Personal Training,18.99,120,Westside,,,,,,,,,,,,,,,,,,,,
+95,2024-01-18,M096,Premium,Yoga Class,18.72,120,Westside,,,,,,,,,,,,,,,,,,,,
+96,2024-01-29,M097,VIP,Gym,129.94,120,Westside,,,,,,,,,,,,,,,,,,,,
+97,2024-01-01,M098,Premium,Dance Class,115.49,120,Eastside,,,,,,,,,,,,,,,,,,,,
+98,2024-01-24,M099,VIP,Personal Training,78.35,90,Westside,,,,,,,,,,,,,,,,,,,,
+99,2024-01-16,M100,Basic,Yoga Class,57.06,120,Eastside,,,,,,,,,,,,,,,,,,,,
