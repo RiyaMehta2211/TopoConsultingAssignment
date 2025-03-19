@@ -20,8 +20,8 @@ Frontend designed to display the data visualization graphs/charts and table usin
 The other files are designed to reorganize and refactor the code using OOP principles and add corresponding unit and integration testing
 for the different classes
 
-Main.py
-Application is launched from main.py
+Application.py
+Application is launched from Application.py
 
 ##Flask-Based Data Visualization Application
 1. Clone this repository using `git clone https://github.com/RiyaMehta2211/TopoConsultingAssignment.git`
@@ -29,9 +29,13 @@ Application is launched from main.py
 3. If you do not have python installed, you can download it from this url here http://python.org/downloads/
 4. Navigate to the `TopoConsultingAssignment` folder in terminal using `cd ~/your/path/to/the/folder`
 5. Install the requirements using `pip install -r requirements.txt`
-6. Run the application using `python Main.py` in the terminal. Alternatively, you may also run Main.py through your preferred
-IDE such as Visual Studio Code.
+6. Run the application using `python app.py` in the terminal. Alternatively, you may also run app.py through your preferred
+IDE such as Visual Studio Code. If both approaches do not work, please try the following approach in command line:
+`flask run --host=0.0.0.0 --port=5000`
+
 7. You will see a link with a message similar to the one below:
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
- * Running on http://127.0.0.1:5000
-8. Click and copy the link to your preferred browser (for eg. http://127.0.0.1:5000) to access the web application
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.10.225:8000 
+8. Click and copy the link to your preferred browser (for eg. http://127.0.0.1:8000) to access the web application
