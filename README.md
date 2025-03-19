@@ -31,3 +31,7 @@ Application is launched from main.py
 5. Install the requirements using `pip install -r requirements.txt`
 6. Run the application using `python Main.py` in the terminal. Alternatively, you may also run Main.py through your preferred
 IDE such as Visual Studio Code.
+7. You will see a link with a message similar to the one below:
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+8. Click and copy the link to your preferred browser (for eg. http://127.0.0.1:5000) to access the web application
