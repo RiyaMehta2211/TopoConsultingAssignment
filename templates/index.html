@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Data Visualization</title>
+        <style>
+            body {
+                zoom: 0.8;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Data Visualization for unified_data.csv</h1>
+        <p>This webpage illustrates the visualization for <strong>unified_data.csv</strong></p>
+        <div>
+            <h2>Bar graph to compare company revenues across the different companies</h2>
+            {{bar_chart | safe}}
+        </div>
+        <div>
+            <table>
+                <style>
+                    table {
+                        border-collapse: collapse;
+                        width: 100%;
+                    }
+                    th, td {
+                        padding: 8px;
+                        text-align: left;
+                        border: 1px solid #DDD;
+                    }
+                    tr:hover {
+                        background-color: #D6EEEE;
+                    }
+                    tr:nth-child(even){
+                        background-color: #D6EEEE;
+                    }
+                </style>
+                <h3>
+                    Tabular representation of unified_data.csv to display the first 10 rows
+                </h3>
+                <thead>
+                    {% for column in table_data[0].keys() %}
+                    <th>{{column}}</th>
+                    {% endfor %}
+                </thead>
+                <tbody>
+                    {% for row in table_data %}
+                    <tr>
+                        {% for value in row.values() %}
+                        <td> {{value}} </td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

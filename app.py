@@ -1,6 +1,8 @@
 from flask import Flask, request, render_template, jsonify
 import pandas as pd
 import json
+import plotly.express as px
+import plotly.graph_objects as go
 
 app = Flask(__name__)
 
@@ -9,9 +11,29 @@ try:
 except FileNotFoundError:
     unified_data = pd.DataFrame()
 
+#to remove duplicates in the dataset when plotting the bar graph
+unique_companies = unified_data.drop_duplicates(subset=["company_name"], keep="first")
+
+#at least 2 visualisations, hence I will use bar graph and tabular data to convey the point
+bar_fig = px.bar(
+    unified_data,
+    x=unique_companies["company_name"],
+    y=unique_companies["company_revenue"],
+    title="Revenue Comparison by Company",
+    labels={"company_revenue": "Revenue", "company_name": "Company"}
+)
+bar_fig.update_layout(
+    xaxis_title="Company Name",
+    yaxis_title="Total Revenue"
+)
+
+bar_graph = bar_fig.to_html()
+table_data = unified_data.head(10).to_dict(orient="records")
+#bar_fig.show()
+
 @app.route('/')
 def index():
-    return render_template("index.html")
+    return render_template("index.html", bar_chart=bar_graph, table_data=table_data)
 
 # GET /api/data: Returns the full unified dataset
 @app.route('/api/data', methods=['GET'])
