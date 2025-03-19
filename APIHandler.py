@@ -2,7 +2,7 @@ from flask import Flask, render_template, jsonify
 import pandas as pd
 import json
 class APIHandler:
-    def _init_(self, app, data):
+    def __init__(self, app, data):
         self.app = app
         self.data = data
     def set_routes(self):

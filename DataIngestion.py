@@ -4,7 +4,7 @@ from pptx import Presentation
 import pdfplumber
 
 class DataIngestion:
-    def _init_(self):
+    def __init__(self):
         self.datasets = {}
     
     def load_csv(self, filepath):

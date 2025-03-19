@@ -3,7 +3,7 @@ import re
 import plotly.express as px
 class Visualization:
     #3 visualisations, hence I will use pie chart, bar graph and tabular data to convey the data representation
-    def _init_(self, data):
+    def __init__(self, data):
         self.data = data
     def create_pie_chart(self):
         target_cell = None
