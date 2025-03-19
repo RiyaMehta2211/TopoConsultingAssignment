@@ -8,14 +8,22 @@
             body {
                 zoom: 0.8;
             }
+            .chart-container {
+                height: 500px;
+                width: 100%;
+            }
         </style>
     </head>
     <body>
         <h1>Data Visualization for unified_data.csv</h1>
         <p>This webpage illustrates the visualization for <strong>unified_data.csv</strong></p>
-        <div>
+        <div class="chart-container">
             <h2>Bar graph to compare company revenues across the different companies</h2>
             {{bar_chart | safe}}
+        </div>
+        <div class="chart-container">
+            <h3>Pie chart to represent revenue distribution for FitPro</h3>
+            {{pie_chart | safe}}
         </div>
         <div>
             <table>

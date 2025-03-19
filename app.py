@@ -3,6 +3,7 @@ import pandas as pd
 import json
 import plotly.express as px
 import plotly.graph_objects as go
+import re
 
 app = Flask(__name__)
 
@@ -11,10 +12,35 @@ try:
 except FileNotFoundError:
     unified_data = pd.DataFrame()
 
+target_cell = None
+for col in unified_data.columns:
+    for value in unified_data[col].dropna():
+        if "Revenue Breakdown by Activity" in str(value):
+            target_cell = value
+            break
+    if target_cell:
+        break
+
+#to extract the relevant percentages using regex
+pattern = r"(\w+\s?\w*):\s?(\d+)%"
+matches = re.findall(pattern, target_cell)
+
+revenue_distribution_data = pd.DataFrame(matches, columns=["Activity", "Percentage"])
+revenue_distribution_data["Percentage"] = revenue_distribution_data["Percentage"].astype(int)
+
+#3 visualisations, hence I will use pie chart, bar graph and tabular data to convey the data representation
+
+pie_fig = px.pie(
+    revenue_distribution_data,
+    names="Activity",
+    values="Percentage",
+    title="Revenue Breakdown by Activity for FitPro"
+)
+pie_chart = pie_fig.to_html()
+
 #to remove duplicates in the dataset when plotting the bar graph
 unique_companies = unified_data.drop_duplicates(subset=["company_name"], keep="first")
 
-#at least 2 visualisations, hence I will use bar graph and tabular data to convey the point
 bar_fig = px.bar(
     unified_data,
     x=unique_companies["company_name"],
@@ -29,11 +55,10 @@ bar_fig.update_layout(
 
 bar_graph = bar_fig.to_html()
 table_data = unified_data.head(10).to_dict(orient="records")
-#bar_fig.show()
 
 @app.route('/')
 def index():
-    return render_template("index.html", bar_chart=bar_graph, table_data=table_data)
+    return render_template("index.html", pie_chart=pie_chart, bar_chart=bar_graph, table_data=table_data)
 
 # GET /api/data: Returns the full unified dataset
 @app.route('/api/data', methods=['GET'])
