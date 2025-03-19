@@ -31,6 +31,7 @@ Application is launched from Application.py
 5. Install the requirements using `pip install -r requirements.txt`
 6. Run the application using `python app.py` in the terminal. Alternatively, you may also run app.py through your preferred
 IDE such as Visual Studio Code. If both approaches do not work, please try the following approach in command line:
+`pip install flask`
 `flask run --host=0.0.0.0 --port=8000` If current port is busy, please try another port.
 
 7. You will see a link with a message similar to the one below:
