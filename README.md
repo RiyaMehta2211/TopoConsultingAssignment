@@ -1,5 +1,6 @@
 # TopoConsultingAssignment
 Brief introduction
+
 Web application designed using HTML for the frontend, and Python & Flask framework for the backend to display data visualization diagrams for the different datasets merged into a single unified_data.csv
 
 Tast1.py
@@ -20,8 +21,8 @@ Frontend designed to display the data visualization graphs/charts and table usin
 The other files are designed to reorganize and refactor the code using OOP principles and add corresponding unit and integration testing
 for the different classes
 
-Application.py
-Application is launched from Application.py
+app.py
+Application is launched from app.py
 
 ##Flask-Based Data Visualization Application
 1. Clone this repository using `git clone https://github.com/RiyaMehta2211/TopoConsultingAssignment.git`
