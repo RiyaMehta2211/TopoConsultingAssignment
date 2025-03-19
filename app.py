@@ -2,7 +2,6 @@ from flask import Flask, request, render_template, jsonify
 import pandas as pd
 import json
 import plotly.express as px
-import plotly.graph_objects as go
 import re
 
 app = Flask(__name__)
